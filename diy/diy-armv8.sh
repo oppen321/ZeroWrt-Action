@@ -24,6 +24,7 @@ sed -i "s/hostname='.*'/hostname='ZeroWrt'/g" package/base-files/luci2/bin/confi
 
 # Modify default IP（FROM 192.168.1.1 CHANGE TO 10.0.0.1）
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/luci2/bin/config_generate
 
 # banner
 cp -f $GITHUB_WORKSPACE/diy/banner  package/base-files/files/etc/banner
