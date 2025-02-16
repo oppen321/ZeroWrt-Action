@@ -250,7 +250,7 @@ jobs:
         OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*rootfs.tar.gz
         PACKAGE_SOC: all
         WHOAMI: OPPEN321
-        KERNEL_VERSION_NAME: 6.1_6.6
+        KERNEL_VERSION_NAME: 6.6_6.12
         KERNEL_AUTO_LATEST: true
         DISTRIB_REVISION: R${{ env.DATE1 }} by OPPEN321
 
