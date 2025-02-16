@@ -6,7 +6,7 @@ on:
 #    - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   CONFIG_FILE: configs/armv8.config
   DIY_SCRIPT: diy/diy-armv8.sh
