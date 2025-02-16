@@ -6,10 +6,10 @@ on:
 #    - cron: 0 20 * * *
 
 env:
-  REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-24.10
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_BRANCH: master
   CONFIG_FILE: configs/armv8.config
-  DIY_SCRIPT: diy/diy-script.sh
+  DIY_SCRIPT: diy/diy-armv8.sh
   CLASH_KERNEL: arm64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
